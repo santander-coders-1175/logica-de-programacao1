@@ -20,6 +20,7 @@
 │   ├── project.ipynb <- Nosso arquivo contendo a análise do projeto proposto
 │
 ├── requirements.txt  	<- Arquivo contendo as bibliotecas necessárias para o projeto
+├── apresentacao.pdf	<- O storytelling do projeto, em PDF
 ├── .gitignore 		<- .gitignore com template para remover arquivos comuns em projetos Python
 ```
 
