@@ -18,9 +18,15 @@ Projeto de Análise de Dados do módulo 'Técnicas de Programação I' com Rober
 ├── requirements.txt   <- The requirements file for reproducing the analysis environment, e.g.
 │                         generated with `pip freeze > requirements.txt`
 ```
+
 ### Members
 
 Gaby, Matheus, Juan, Giovanni
 
---------
+### Referências
 
+- https://archive.ics.uci.edu/dataset/350/default+of+credit+card+clients
+- https://www.sciencedirect.com/science/article/abs/pii/S0957417407006719?via%3Dihub
+- https://www.kaggle.com/datasets/uciml/default-of-credit-card-clients-dataset/data
+
+---
