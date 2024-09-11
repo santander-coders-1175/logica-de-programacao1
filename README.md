@@ -1,29 +1,61 @@
-# Análise de Credit Default
+# Grupo 2 - Análise do dataset "**Inadimplência de Clientes de Cartão de Crédito**" *(Default of credit card clients)***Integrantes:**
 
-Projeto de Análise de Dados do módulo 'Técnicas de Programação I' com Roberto Pontes
+- Matheus F. Chaves
+- Giovanni Ornellas
+- Gabriela Rodrigues
+- Juan Vieira
 
-## Project Organization
+> Santander Coders 2024.1
+> Turma #1175 - Data Science
+> Professor Roberto G. Pontes - Técnicas de Programação I
+
+## Organização do projeto
 
 ```
-├── README.md          <- The top-level README for developers using this project.
+├── README.md          <- Explicações sobre o projeto
 ├── data
-│   ├── external       <- Data from third party sources.
-│   ├── processed      <- The final, canonical data sets for modeling.
-│   └── raw            <- The original, immutable data dump.
+│   ├── default_of_credit_card_clients.xls <- O dataset analisado
 │
-├── notebooks          <- projeto.ipynb
+├── notebooks  
+│   ├── project.ipynb <- Nosso arquivo contendo a análise do projeto proposto
 │
-├── references         <- refs.md, .png
-│
-├── requirements.txt   <- The requirements file for reproducing the analysis environment, e.g.
-│                         generated with `pip freeze > requirements.txt`
+├── requirements.txt  	<- Arquivo contendo as bibliotecas necessárias para o projeto
+├── .gitignore 		<- .gitignore com template para remover arquivos comuns em projetos Python
 ```
 
-### Members
+## Inicializando o projeto
 
-Gaby, Matheus, Juan, Giovanni
+1. Clone o reposítório:
 
-### Referências
+```
+git clone https://github.com/santander-coders-1175/logica-de-programacao1.git
+```
+
+> *Opcional: em caso de erros ao rodar o notebook e/ou caso não tenha as dependências do arquivo requirements.txt, realize os passos 2 e 3:*
+
+3. Crie um ambiente virtual:
+
+*Linux*
+
+```
+python3 -m venv <nome do seu ambiente você quem escolhe> 
+```
+
+*Windows*
+
+```
+python -m venv <nome do seu ambiente você quem escolhe>
+```
+
+3. Instale as dependências:
+
+```
+pip install -r requirements.txt
+```
+
+4. Verifique a análise feita no arquivo `/notebooks/projeto.ipynb`
+
+## Referências
 
 - https://archive.ics.uci.edu/dataset/350/default+of+credit+card+clients
 - https://www.sciencedirect.com/science/article/abs/pii/S0957417407006719?via%3Dihub
